@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app {
+  height: 812px;
+  width: 375px;
+  border-radius: 39px;
+  background-color: #17181a;
+  display: flex;
+  flex-direction: column;
+}
+.card-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  padding-bottom: 16px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  padding-bottom: 20px;
+}
+.card {
+  height: 90px;
+  width: 90px;
+  border-radius: 10px;
+  background-color: #29a8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-icon {
+  width: 67px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+button {
+  height: 40px;
+  width: 75px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #29a8ff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-back {
+  height: 75px;
+  width: 75px;
+  border-radius: 10px;
+  background-color: #29a8ff;
+  cursor: pointer;
+}
+.timer {
+  color: white;
+  font-size: 40px;
+}
+.counter {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.p-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 45px;
+}
